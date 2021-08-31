@@ -41,6 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-navbar-rgb: 42, 88, 157;
   --bs-primary-rgb: 189, 93, 56;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -8159,7 +8160,7 @@ fieldset:disabled .btn {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(
-    var(--bs-primary-rgb),
+    var(--bs-navbar-rgb),
     var(--bs-bg-opacity)
   ) !important;
 }
@@ -11796,4 +11797,27 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.courses-text{
+  font-size: 1.4rem;
+}
+
+.embed-container{
+  height:0;
+  margin-bottom:18px;
+  overflow:hidden;
+  padding-bottom:56.25%; /* 16/9 ratio */
+  padding-top:30px; /* IE6 workaround*/
+  position:relative;
+}
+
+.pdf-view{
+  margin: auto;
+  display: block;  
+  height:80% !important;      
+  position:absolute;    
+  width:90% !important;  
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
 }
