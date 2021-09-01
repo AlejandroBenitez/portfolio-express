@@ -11800,15 +11800,6 @@ section.resume-section .resume-section-content {
   font-size: 1.4rem;
 }
 
-/*.embed-container{
-  height:0;
-  margin-bottom:18px;
-  overflow:hidden;
-  padding-bottom:56.25%; /* 16/9 ratio /
-  padding-top:30px; /* IE6 workaround/
-  position:relative;
-}*/
-
 .pdf-view {
   margin: auto;
   display: block;
