@@ -36,7 +36,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
             </ul>
         </div>
     </nav>
@@ -369,27 +369,51 @@
             </div>
         </section>
         <hr class="m-0" />
-        <!-- Interests-->
-        <section class="resume-section" id="interests">
+        <!-- Projects-->
+        <section class="resume-section" id="projects">
             <div class="resume-section-content">
-                <h2 class="mb-5">Interests</h2>
-                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
-                    skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking,
-                    free climbing, and kayaking.</p>
-                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
-                    shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest
-                    technology advancements in the front-end web development world.</p>
+                <h2 class="mb-5">PROJECTS</h2>
+                <ul class="fa-ul mb-0 courses-text">
+                    <li class="d-flex align-items-center">
+                        <button type="button" class="btn btn-outline-info btn-sm m-2" data-bs-toggle="modal"
+                            data-bs-target="#top-packing">Fotos</button>
+                        <button type="button" class="btn btn-outline-dark btn-sm">Github</button>
+                        <div class="ms-2">1)</div>&nbsp;<a href="https://top-packing.web.app/index.html/"
+                            target="_blank">Top
+                            Packing</a>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="top-packing" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Top Packing</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body embed-container">
+                                        FOTOS DE LA PAGINA
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <hr class="m-0" />
-        <!-- Awards-->
-
     </div>
 
     <!-- Bootstrap core JS-->
     <script src="./js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="./js/scripts.js"></script>
+    <!-- Core theme JS-->
+    <script src="./js/githubAPI.js"></script>
 </body>
 
 </html>
