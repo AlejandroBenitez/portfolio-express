@@ -42,7 +42,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-navbar-rgb: 42, 88, 157;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 42, 88, 157; /*189, 93, 56*/
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -271,11 +271,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #2a589d;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #0c3779;
 }
 
 a:not([href]):not([class]),
@@ -2263,11 +2263,11 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #212529;
+  color: #1e242b;
   background-color: #fff;
-  border-color: #deae9c;
+  border-color: #3955d3;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(23, 116, 238, 0.356);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -3132,20 +3132,20 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-  color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  color: rgb(255, 255, 255);
+  background-color: #2a589d;
+  border-color: #1c4c94;
 }
 .btn-primary:hover {
-  color: #000;
-  background-color: #c77556;
-  border-color: #c46d4c;
+  color: rgb(255, 255, 255);
+  background-color: #0a3a81;
+  border-color: #051f46;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
-  color: #000;
-  background-color: #c77556;
-  border-color: #c46d4c;
+  color: rgb(255, 255, 255);
+  background-color: #0a3a81;
+  border-color: #051f46;
   box-shadow: 0 0 0 0.25rem rgba(161, 79, 48, 0.5);
 }
 .btn-check:checked + .btn-primary,
@@ -3153,22 +3153,22 @@ fieldset:disabled .btn {
 .btn-primary:active,
 .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
-  color: #000;
-  background-color: #ca7d60;
-  border-color: #c46d4c;
+  color: rgb(255, 255, 255);
+  background-color: #0a3a81;
+  border-color: #051f46;
 }
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus,
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(161, 79, 48, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(50, 114, 173, 0.5);
 }
 .btn-primary:disabled,
 .btn-primary.disabled {
-  color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  color: rgb(255, 255, 255);
+  background-color: #0a3a81;
+  border-color: #051f46;
 }
 
 .btn-secondary {

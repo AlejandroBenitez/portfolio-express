@@ -37,6 +37,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -406,13 +407,54 @@
             </div>
         </section>
         <hr class="m-0" />
+        <!-- Contact -->
+        <section class="resume-section" id="contact">
+            <div class="resume-section-content">
+                <form class="row g-3" id="contactForm">
+                    <div class="col-12">
+                        <label for="nameForm" class="form-label">Name</label>
+                        <input id="nameForm" type="text" class="form-control" placeholder="Example: Google || Mark"
+                            required>
+                    </div>
+                    <div class="col-12">
+                        <label for="emailForm" class="form-label">Email</label>
+                        <div class="input-group">
+                            <input id="emailForm" type="email" class="form-control"
+                                aria-describedby="inputGroupPrepend2" placeholder="Example: sofia@google.com" required>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="phoneForm" class="form-label">Phone number</label>
+                        <div class="input-group">
+                            <input id="phoneForm" type="number" class="form-control"
+                                aria-describedby="inputGroupPrepend2" placeholder="Example: 24051234 || 099123456"
+                                required>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="textForm" class="form-label">Text</label>
+                        <textarea id="textForm" class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Contact</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <hr class="m-0" />
     </div>
 
     <!-- Bootstrap core JS-->
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
+    <!-- Firebase app -->
+    <!-- General scripts-->
     <script src="./js/scripts.js"></script>
-    <!-- Core theme JS-->
+    <!-- Firebase -->
+    <script src="./js/firebase/firebase-app.js"></script>
+    <script src="./js/firebase/initFirebase.js"></script>
+    <script src="./js/firebase/firebase-firestore.js"></script>
+    <!-- Connecting with github API -->
+    <script src="./js/sendContactForm.js"></script>
     <script src="./js/githubAPI.js"></script>
 </body>
 
