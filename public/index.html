@@ -21,8 +21,12 @@
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <h2 class="position-title d-none d-lg-block">
+            Developer
+        </h2>
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Alejandro Benítez</span>
+
+            <span class="d-block d-lg-none">Developer</span>
             <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
                     src="./assets/img/perfil.png" alt="..." /></span>
         </a>
@@ -31,7 +35,6 @@
                 class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
-
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
@@ -46,6 +49,9 @@
         <!-- About-->
         <section class="resume-section" id="about">
             <div class="resume-section-content">
+                <span class="d-block d-lg-none"><img
+                        class="img-fluid-mobile img-profile-mobile rounded-circle mx-auto mb-2"
+                        src="./assets/img/perfil.png" alt="..." /></span>
                 <h1 class="mb-0">
                     Alejandro
                     <span class="text-primary">Benítez</span>
@@ -54,9 +60,9 @@
                     Montevideo, Uruguay · (+598) 99 150 464 ·
                     <a href="mailto:alejandrobenitezcorp@gmail.com">alejandrobenitezcorp@gmail.com</a>
                 </div>
-                <p class="lead mb-5">I am an enthusiastic person who likes to learn about programming. Currently I am
-                    studying the first semester of a system analyst career at the ORT University. I applying the use of
-                    frameworks in my personal projects, in particular React.js.</p>
+                <p class="lead mb-5">I am an enthusiastic person who likes to learn about technologies and programming.
+                    Also I’m people-person and an effective communicator, that make me have to understand the problems
+                    easily and I have an analytic skill to propose solutions for resolve them.</p>
                 <div class="social-icons">
                     <a class="social-icon" href="https://www.linkedin.com/in/adbp21/" target="_blank"><i
                             class="fab fa-linkedin-in"></i></a>
@@ -76,31 +82,35 @@
                 <h2 class="mb-5">Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">IT technician</h3>
+                        <h3 class="mb-0">QA testing, Developer & IT technician</h3>
                         <div class="subheading mb-3">IC Payment</div>
-                        <p>Here I was evolving in my involvement with the software, I began to diversify my
-                            developments:
-
-                            # Development of internal administration web pages.
-                            # Manual testing of web applications focused on self-service machines.
-                            # Creation, connection and use of platforms such as Jira, Slack and Github / GitLab.
-                        </p>
+                        <ul>
+                            <li>Development of internal administration web pages.</li>
+                            <li>Web Apps white-box testing.</li>
+                            <li>Web Apps manual testing, focused on self-service machines.</li>
+                            <li>Management platforms such as Jira, Slack and Github / GitLab.</li>
+                            <li>Core Software installation and update for all clients.</li>
+                            <li>SQL query development with SQL Management Studio.</li>
+                            <li>Remote monitoring and statistical reporting.</li>
+                            <li>Documentation assembly, asset management, incidents and change resolution according to
+                                the company goals.</li>
+                        </ul>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">October 2019 - Present</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">IT technician</h3>
+                        <h3 class="mb-0">QA testing & IT technician</h3>
                         <div class="subheading mb-3">Diebold Nixdorf</div>
-                        <p>Here I learned to manage my effective communication with clients in the banking and financial
-                            sector.
-                            I started giving hardware support to the teams, but little by little I got involved with
-                            software tasks such as:
-
-                            # Putting web applications and Windows services into production.
-                            # SQL query development with SQL Management Studio.
-                            # Remote monitoring and statistical reporting.
-                        </p>
+                        <ul>
+                            <li>Manual & Black-box testing.</li>
+                            <li>Putting web applications and Windows services into production.</li>
+                            <li>SQL query development with SQL Management Studio.</li>
+                            <li>Logs analysis of ATM’s.</li>
+                            <li>Scripts on bash.</li>
+                            <li>Remote monitoring and statistical reporting.</li>
+                            <li>Help desk for Itau, Santander, BROU, ScotiaBank and H&M.</li>
+                        </ul>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">October 2015 - January 2019</span></div>
                 </div>
@@ -111,14 +121,12 @@
         <section class="resume-section" id="courses">
             <div class="resume-section-content">
                 <h2 class="mb-5">COURSES</h2>
-                <ul class="fa-ul mb-0 courses-text">
-                    <li class="d-flex align-items-center">
+                <ul class="courses-text courses-position">
+                    <li class="d-flex align-items-center justify-content-start">
                         <button type="button" class="btn btn-outline-secondary btn-sm m-2" data-bs-toggle="modal"
                             data-bs-target="#jap-certificate">Ver</button>
                         JAVA Certificate on&nbsp;<a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jóvenes a
                             programar</a>
-
-
                         <!-- Modal -->
                         <div class="modal fade" id="jap-certificate" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -143,8 +151,6 @@
                         <button type="button" class="btn btn-outline-secondary btn-sm m-2" data-bs-toggle="modal"
                             data-bs-target="#javascript-fundaments">Ver</button>
                         Javascript fundaments on&nbsp;<a href="https://platzi.com/" target="_blank">Platzi</a>
-
-
                         <!-- Modal -->
                         <div class="modal fade" id="javascript-fundaments" data-bs-backdrop="static"
                             data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
@@ -343,12 +349,31 @@
                     <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                     <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                     <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
                     <li class="list-inline-item"><i class="fab fa-react"></i></li>
                     <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
                     <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                 </ul>
-                <div class="subheading mb-3">Workflow</div>
+                <div class="subheading mb-3">Professional Skills</div>
+                <ul class="fa-ul mb-3">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Highly organized, but able to adapt as
+                        needs and programs evolve.
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Negotiation and conclifct resolution.
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Stress management.
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Emotional intelligence.
+                    </li>
+                </ul>
+                <div class="subheading mb-3 mt-4">Workflow</div>
                 <ul class="fa-ul mb-0">
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -376,32 +401,16 @@
                 <h2 class="mb-5">PROJECTS</h2>
                 <ul class="fa-ul mb-0 courses-text">
                     <li class="d-flex align-items-center">
-                        <button type="button" class="btn btn-outline-info btn-sm m-2" data-bs-toggle="modal"
-                            data-bs-target="#top-packing">Fotos</button>
-                        <button type="button" class="btn btn-outline-dark btn-sm">Github</button>
                         <div class="ms-2">1)</div>&nbsp;<a href="https://top-packing.web.app/index.html/"
                             target="_blank">Top
                             Packing</a>
+                    </li>
+                    <li class="d-flex align-items-center">
 
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="top-packing" data-bs-backdrop="static" data-bs-keyboard="false"
-                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">Top Packing</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body embed-container">
-                                        FOTOS DE LA PAGINA
-                                    </div>
-                                    <div class="modal-footer">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="ms-2">2)</div>&nbsp;<a href="https://robots-alejandro-benitez.web.app/"
+                            target="_blank">API Consume on React.js</a>
+                        <a class="btn btn-outline-secondary btn-sm m-3"
+                            href="https://github.com/AlejandroBenitez/starting-react-app" target="_blank">Github</a>
                     </li>
                 </ul>
             </div>
