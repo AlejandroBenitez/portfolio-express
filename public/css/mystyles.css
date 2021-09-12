@@ -1,0 +1,515 @@
+@media screen and (min-width: 306px) {
+  .courses-size {
+    font-size: 3px;
+  }
+  .h2-title {
+    font-size: 11px;
+    position: relative;
+    left: 150px;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .btn-small {
+    padding: 0.15rem 0.3rem;
+    font-size: 0.475rem;
+    border-radius: 0.2rem;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 306px) {
+  .courses-size {
+    font-size: 9px;
+  }
+  .h2-title {
+    font-size: 17px;
+    position: relative;
+    left: 150px;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .btn-small {
+    padding: 0.19rem 0.4rem;
+    font-size: 0.575rem;
+    border-radius: 0.2rem;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 356px) {
+  .courses-size {
+    font-size: 12px;
+  }
+  .h2-title {
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+  }
+  .btn-small {
+    padding: 0.22rem 0.5rem;
+    font-size: 0.675rem;
+    border-radius: 0.2rem;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 406px) {
+  .courses-size {
+    font-size: 15px;
+  }
+  .h2-title {
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+  }
+  .btn-small {
+    padding: 0.24rem 0.6rem;
+    font-size: 0.745rem;
+    border-radius: 0.2rem;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 458px) {
+  .courses-size {
+    font-size: 18px;
+  }
+  .h2-title {
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+  }
+  .btn-small {
+    padding: 0.26rem 0.7rem;
+    font-size: 0.805rem;
+    border-radius: 0.2rem;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 520px) {
+  .courses-size {
+    font-size: 20px;
+  }
+  .h2-title {
+    font-size: 35px;
+    position: relative;
+    left: 150px;
+  }
+  .btn-small {
+    padding: 0.28rem 0.8rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 650px) {
+  .courses-size {
+    font-size: 25px;
+  }
+  .btn-small {
+    padding: 0.3rem 0.9rem;
+    font-size: 0.915rem;
+    border-radius: 0.2rem;
+  }
+  .section-position {
+    position: relative;
+    left: 10px;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .h2-title {
+    font-size: 45px;
+    position: relative;
+    left: 150px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .courses-size {
+    font-size: 25px;
+  }
+  .section-position {
+    position: relative;
+    left: 40px;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .h2-title {
+    font-size: 45px;
+    position: relative;
+    left: 150px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 974px) {
+  .courses-size {
+    font-size: 25px;
+  }
+  .section-position {
+    position: relative;
+    left: 20px;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .h2-title {
+    font-size: 45px;
+    position: relative;
+    left: 150px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1040px) {
+  .courses-size {
+    font-size: 30px;
+  }
+  .section-position {
+    position: relative;
+    left: auto;
+  }
+  .h2-title {
+    font-size: 55px;
+    position: relative;
+    left: 150px;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .courses-size {
+    font-size: 35px;
+  }
+  .h2-title {
+    font-size: 65px;
+    position: relative;
+    left: 150px;
+  }
+  .courses-position,
+  li {
+    position: relative;
+    left: 1px;
+  }
+  .pdf-view {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .position-title {
+    position: relative;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+      0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .img-profile-mobile {
+    max-width: 14rem;
+    max-height: 14rem;
+    border: 0.5rem solid rgba(42, 88, 157, 0.924);
+    position: relative;
+    top: -35px;
+    left: 41px;
+  }
+  .img-fluid-mobile {
+    max-width: 100%;
+  }
+}

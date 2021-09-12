@@ -11796,43 +11796,4 @@ section.resume-section .resume-section-content {
   }
 }
 
-.courses-text {
-  font-size: 1.4rem;
-}
 
-.pdf-view {
-  margin: auto;
-  display: block;
-  width: 100%;
-  height: 80vh;
-  border-radius: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.position-title {
-  position: relative;
-  top: 150px;
-  color: rgb(255, 255, 255);
-  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 5px 20px 0 rgba(0, 0, 0, 0.25);
-}
-.img-profile-mobile {
-  max-width: 14rem;
-  max-height: 14rem;
-  border: 0.5rem solid rgba(42, 88, 157, 0.924);
-  position: relative;
-  top: -35px;
-  left: 41px;
-}
-.img-fluid-mobile {
-  max-width: 100%;
-}
-
-.courses-position {
-  position: relative;
-  left: 1px;
-}
-.courses-position,
-li {
-  position: relative;
-  left: 1px;
-}
