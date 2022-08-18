@@ -1,4 +1,9 @@
+hr .dashed {
+  border-top: 3px dashed rgb(80, 80, 80);
+}
 @media screen and (min-width: 306px) {
+
+
   .courses-size {
     font-size: 3px;
   }
